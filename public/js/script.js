@@ -83,6 +83,7 @@ function ajaxError() {
 
 function buildBusinesses(data) {
 	
+	$(".card").remove();
 	for (var i=0; i<data.businesses.length; i++) {
 		
 		var $bus = data.businesses[i];
